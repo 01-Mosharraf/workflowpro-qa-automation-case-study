@@ -172,6 +172,36 @@ pytest automation/tests/integration
 
 ---
 
+## CI/CD Pipeline
+
+This project includes a GitHub Actions workflow.
+
+Pipeline stages:
+
+1. Checkout code
+2. Setup Python
+3. Install dependencies
+4. Install Playwright browsers
+5. Execute tests
+6. Upload artifacts
+
+---
+
+## Project Highlights
+
+- Playwright Automation
+- Pytest Framework
+- API Testing
+- BrowserStack Ready
+- Page Object Model
+- Parallel Execution
+- YAML Configuration
+- GitHub Actions
+- Multi-Tenant Testing
+- CI/CD Integration
+
+---
+
 ## Assumptions
 
 The application used in this assignment is fictional.
