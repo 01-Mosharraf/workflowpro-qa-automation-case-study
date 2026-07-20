@@ -1,6 +1,6 @@
 import pytest
 
-from automation.utils.browser_factory import BrowserFactory
+from .utils.browser_factory import BrowserFactory
 
 
 @pytest.fixture
