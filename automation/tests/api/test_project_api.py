@@ -1,13 +1,8 @@
 import pytest
-from automation.config.config_reader import ConfigReader
 
-config = ConfigReader.load_config()
-
-if config.get("framework", {}).get("demo_mode", False):
-    pytest.skip(
-        "WorkflowPro API is fictional. API execution is intentionally skipped.",
-        allow_module_level=True
-    )
+@pytest.mark.skip(reason="WorkflowPro is a fictional application.")
+def test_user_login(page):
+    pass
 
 from automation.api.project_api import ProjectAPI
 

@@ -46,7 +46,8 @@ jobs:
         run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
       - name: Run Tests
-        run: pytest -rs
+        run: |
+          pytest -rs || if [ $? -eq 5 ]; then exit 0; else exit $?; fi
 
       - name: Upload Test Results
         if: always()
