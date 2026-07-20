@@ -160,6 +160,18 @@ pytest automation/tests/integration
 
 ---
 
+## Test Coverage
+
+- Login
+- Multi-Tenant Validation
+- API Project Creation
+- UI Verification
+- BrowserStack Mobile Strategy
+- Tenant Isolation
+- CI/CD Ready Framework
+
+---
+
 ## Assumptions
 
 The application used in this assignment is fictional.
