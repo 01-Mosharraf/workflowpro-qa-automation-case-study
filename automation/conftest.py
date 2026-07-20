@@ -14,3 +14,4 @@ def page():
     browser.close()
 
     playwright.stop()
+    

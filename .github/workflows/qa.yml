@@ -46,7 +46,7 @@ jobs:
         run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
       - name: Run Tests
-        run: pytest
+        run: pytest -rs
 
       - name: Upload Test Results
         if: always()

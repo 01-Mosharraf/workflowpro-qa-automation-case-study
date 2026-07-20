@@ -1,3 +1,14 @@
+import pytest
+from automation.config.config_reader import ConfigReader
+
+config = ConfigReader.load_config()
+
+if config.get("framework", {}).get("demo_mode", False):
+    pytest.skip(
+        "WorkflowPro is a fictional application. UI execution is intentionally skipped.",
+        allow_module_level=True
+    )
+
 from automation.pages.login_page import LoginPage
 from automation.config.config_reader import ConfigReader
 from automation.utils.test_data_manager import TestDataManager

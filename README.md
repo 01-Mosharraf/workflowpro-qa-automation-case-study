@@ -202,6 +202,25 @@ Pipeline stages:
 
 ---
 
+## Execution Notice
+
+This repository was created as part of the Bynry QA Automation Case Study.
+
+WorkflowPro is a fictional SaaS application used only for framework design.
+
+The framework demonstrates:
+
+- Playwright architecture
+- API abstraction
+- Page Object Model
+- CI/CD
+- BrowserStack integration
+- Multi-tenant design
+
+Network execution is intentionally disabled because no real WorkflowPro environment is provided.
+
+---
+
 ## Assumptions
 
 The application used in this assignment is fictional.

@@ -1,6 +1,8 @@
 application:
-
   base_url: https://app.workflowpro.com
+
+framework:
+  demo_mode: true
 
 browser:
 

@@ -129,3 +129,11 @@ Using the API to create data is much faster and more reliable than creating it m
 The UI is then used only for validation.
 
 This approach reduces execution time and improves test stability.
+
+---
+
+## Execution Assumption
+
+WorkflowPro is not publicly accessible.
+
+The implementation demonstrates the intended automation strategy and framework design. Placeholder URLs and credentials are expected to be replaced with real environment values during implementation.

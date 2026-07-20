@@ -8,6 +8,17 @@ This test demonstrates framework design and testing strategy.
 """
 
 import pytest
+from automation.config.config_reader import ConfigReader
+
+config = ConfigReader.load_config()
+
+if config.get("framework", {}).get("demo_mode", False):
+    pytest.skip(
+        "WorkflowPro integration flow is fictional. Execution is intentionally skipped.",
+        allow_module_level=True
+    )
+
+import pytest
 
 from automation.api.project_api import ProjectAPI
 from automation.pages.login_page import LoginPage
