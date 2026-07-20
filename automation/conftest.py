@@ -3,7 +3,7 @@ import pytest
 from automation.utils.browser_factory import BrowserFactory
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture
 
 def page():
 

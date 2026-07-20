@@ -1,19 +1,31 @@
 application:
-  base_url: "https://app.workflowpro.com"
+
+  base_url: https://app.workflowpro.com
 
 browser:
-  name: "chromium"
+
+  name: chromium
+
   headless: true
+
   viewport:
+
     width: 1920
+
     height: 1080
 
 timeouts:
+
   navigation: 30000
+
   action: 10000
 
-tenant:
-  default: "company1"
+reporting:
+
+  screenshots: true
+
+  logs: true
 
 environment:
-  name: "QA"
+
+  name: QA

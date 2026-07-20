@@ -3,12 +3,20 @@ import logging
 
 def get_logger(name):
 
-    logging.basicConfig(
+    logger = logging.getLogger(name)
 
-        level=logging.INFO,
+    logger.setLevel(logging.INFO)
 
-        format="%(asctime)s | %(levelname)s | %(message)s"
+    if not logger.handlers:
 
-    )
+        formatter = logging.Formatter(
+            "%(asctime)s | %(levelname)s | %(message)s"
+        )
 
-    return logging.getLogger(name)
+        console = logging.StreamHandler()
+
+        console.setFormatter(formatter)
+
+        logger.addHandler(console)
+
+    return logger

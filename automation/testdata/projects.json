@@ -1,0 +1,17 @@
+{
+    "default_project": {
+  
+      "name": "Automation Demo Project",
+  
+      "description": "Created from automation framework",
+  
+      "team_members": [
+  
+        "user1",
+  
+        "user2"
+  
+      ]
+  
+    }
+  }
