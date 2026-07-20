@@ -145,6 +145,21 @@ pytest automation/tests/integration
 
 ---
 
+## Framework Highlights
+
+- Page Object Model
+- API + UI Integration Testing
+- BrowserStack Cross Browser Support
+- Multi-Tenant Test Design
+- Environment Based Configuration
+- Parallel Test Execution
+- GitHub Actions CI/CD
+- Allure Reporting
+- External Test Data
+- Screenshot on Failure
+
+---
+
 ## Assumptions
 
 The application used in this assignment is fictional.
